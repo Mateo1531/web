@@ -1,0 +1,90 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+    @media all and (min-width: 992px) {
+        .navbar .nav-item .dropdown-menu{ display: none; }
+        
+        .navbar .nav-item:hover .dropdown-menu{ display: block; }
+        .navbar .nav-item .dropdown-menu{ margin-top:0; }
+    }	   
+    .labelNav{
+        list-style: none;
+        color: white;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .navStyle{
+        padding: 10px 5px 0px 5px ;
+    }
+    .iconNav{
+        padding: 0px ;
+        background-color: white;
+    }
+    .barraDeBusqueda{
+        background-color: white;
+        width: 100%;
+    }
+
+    figcaption {
+        display:none; 
+        transition: all .5s;
+    }
+    /* Visible texto */
+    figure:hover > figcaption {
+        display:block;
+        background-color: white;
+        position: fixed;
+        transition: all .5s;
+    }
+    .lavelMsg{
+        width: 300px;
+        text-align: center;
+    }
+    .btnHomePage{
+        height: 46px;
+    }
+
+    .sm\:justify-center {
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    .min-h-screen {
+        min-height: 80vh;
+    }
+    .min-h-screen {
+        min-height: 60vh;
+    }
+
+    .btnStarSession{
+        width: 399px;
+        height: 46px;
+        border-color: rgb(209 213 219 / var(--tw-border-opacity));
+        border-radius: 0.375rem;
+        --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+        --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    }
+    .logoStartSession{
+        width: 33px;
+        height: 46px;
+        display: inline-block;
+        float: left;
+    }
+    .labelStarSesion{
+        padding-top: 12px;
+
+    }
+
+    .min-h-screen {
+        min-height: 60vh;
+    }
+    .iconLogin{
+        display: block;
+        float: left;
+        width: 36px;
+        padding-top: 5px;
+
+    }
+   
