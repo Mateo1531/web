@@ -9,10 +9,13 @@ class CourseController extends Controller
     {
         return view('registerCourse');
     }  
-    public function createCourse()
+    public function createCourse(Request $request)
     {
-        $course =Course::getCourse();
-        dd($course);
-        return $course;
+
+            dd($request->input());
+            $o_Course = new Course ($request->input());;
+            $o_Course->save();
+      
+        return "hola";
     }
 }

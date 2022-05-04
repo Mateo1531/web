@@ -15,6 +15,7 @@ class Course extends Model
     
     public  static function getCourse()
     {
+       
         return Course::all();
     }
 

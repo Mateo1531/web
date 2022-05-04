@@ -8,6 +8,14 @@ document.getElementById("menu12").addEventListener("click", function( event ) {
    
     document.getElementById('menulateral').style.display = '';
 }, false);
+
+
+document.getElementsByClassName("labelNav").addEventListener("click", function( event ) {
+   
+    document.getElementById('menulateral').style.display = '';
+}, false);
+
+
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:5,
